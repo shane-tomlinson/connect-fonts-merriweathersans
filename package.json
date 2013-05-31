@@ -18,12 +18,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shane-tomlinson/connect-fonts-merriweathersans.git"
+    "url": "https://github.com/shane-tomlinson/connect-fonts-merriweathersans"
   },
-  "bugs": {
-    "url": "https://github.com/shane-tomlinson/connect-fonts-merriweathersans/issues"
-  },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": ">= 0.4.7"
   },
