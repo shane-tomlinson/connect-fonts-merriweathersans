@@ -31,7 +31,7 @@ module.exports = {
 
   // Common font information
   "font_common": {
-    "names": "merriweathersans-bold,merriweathersans-extrabold,merriweathersans-light,merriweathersans-regular",
+    "names": "merriweathersans-bold,merriweathersans-bolditalic,merriweathersans-extrabold,merriweathersans-extrabolditalic,merriweathersans-italic,merriweathersans-light,merriweathersans-lightitalic,merriweathersans-regular",
     "description": "Merriweather Sans is a low contrast semi condesed sans serif typeface designed to be readable at very small sizes. MerriweatherSans is traditional in feeling despite a the modern shapes it has adopted for screens.",
     "family": "Merriweather Sans",
     "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'",
@@ -62,17 +62,41 @@ module.exports = {
         "fontWeight": "700",
         "local": [ "Merriweather Sans Bold", "MerriweatherSans-Bold" ]
       },
+      "merriweathersans-bolditalic": {
+        "fontFamily": "Merriweather Sans",
+        "fontStyle": "italic",
+        "fontWeight": "700",
+        "local": [ "Merriweather Sans Bold Italic", "MerriweatherSans-BoldItalic" ]
+      },
       "merriweathersans-extrabold": {
         "fontFamily": "Merriweather Sans",
         "fontStyle": "normal",
         "fontWeight": "800",
         "local": [ "Merriweather Sans ExtraBold", "MerriweatherSans-ExtraBold" ]
       },
+      "merriweathersans-extrabolditalic": {
+        "fontFamily": "Merriweather Sans",
+        "fontStyle": "italic",
+        "fontWeight": "800",
+        "local": [ "Merriweather Sans ExtraBold Italic", "MerriweatherSans-ExtraBldItalic" ]
+      },
+      "merriweathersans-italic": {
+        "fontFamily": "Merriweather Sans",
+        "fontStyle": "italic",
+        "fontWeight": "400",
+        "local": [ "Merriweather Sans Italic", "MerriweatherSans-Italic" ]
+      },
       "merriweathersans-light": {
         "fontFamily": "Merriweather Sans",
         "fontStyle": "normal",
         "fontWeight": "300",
         "local": [ "Merriweather Sans Light", "MerriweatherSans-Light" ]
+      },
+      "merriweathersans-lightitalic": {
+        "fontFamily": "Merriweather Sans",
+        "fontStyle": "italic",
+        "fontWeight": "300",
+        "local": [ "Merriweather Sans Light Italic", "MerriweatherSans-LightItalic" ]
       },
       "merriweathersans-regular": {
         "fontFamily": "Merriweather Sans",

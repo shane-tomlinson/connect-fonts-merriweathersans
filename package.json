@@ -2,7 +2,7 @@
   "Author": "Shane Tomlinson <shane@shanetomlinson.com> (https://shanetomlinson.com)",
   "name": "connect-fonts-merriweathersans",
   "description": "Merriweather Sans font pack for connect-fonts",
-  "keywords": ["font", "font-face", "CSS", "connect-fonts", "merriweathersans-bold", "merriweathersans-extrabold", "merriweathersans-light", "merriweathersans-regular"],
+  "keywords": ["font", "font-face", "CSS", "connect-fonts", "merriweathersans-bold", "merriweathersans-bolditalic", "merriweathersans-extrabold", "merriweathersans-extrabolditalic", "merriweathersans-italic", "merriweathersans-light", "merriweathersans-lightitalic", "merriweathersans-regular"],
   "homepage": "https://github.com/shane-tomlinson/connect-fonts-merriweathersans",
   "licenses": [
     {
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "https://github.com/shane-tomlinson/connect-fonts-merriweathersans"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "node": ">= 0.4.7"
   },

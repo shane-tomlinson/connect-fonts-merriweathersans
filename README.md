@@ -29,13 +29,17 @@ const font_pack  = require("connect-fonts-merriweathersans");
 
 Multiple fonts from the family can be included by using a comma separated list of fonts:
 ```html
-<link href="/merriweathersans-bold,merriweathersans-extrabold,merriweathersans-light,merriweathersans-regular/fonts.css" type="text/css" rel="stylesheet"/ >
+<link href="/merriweathersans-bold,merriweathersans-bolditalic,merriweathersans-extrabold,merriweathersans-extrabolditalic,merriweathersans-italic,merriweathersans-light,merriweathersans-lightitalic,merriweathersans-regular/fonts.css" type="text/css" rel="stylesheet"/ >
 ```
 
 Available fonts:
 * merriweathersans-bold
+* merriweathersans-bolditalic
 * merriweathersans-extrabold
+* merriweathersans-extrabolditalic
+* merriweathersans-italic
 * merriweathersans-light
+* merriweathersans-lightitalic
 * merriweathersans-regular
 
 Locale-optimised font sets can be served by specifying the locale in the fonts.css URL.
@@ -44,8 +48,8 @@ Locale-optimised font sets can be served by specifying the locale in the fonts.c
 ```
 
 Available subsets:
-* en
 * latin
+* en
 
 5. Set your CSS up to use the new font by using the "Merriweather Sans" font-family.
 ```
